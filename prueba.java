@@ -5,10 +5,10 @@ class prueba {
     /* 1. Activamos el scanner */
     Scanner sc = new Scanner(System.in);
 
-    /* 2.Variable para guardarnos la opción que el usuario escogerá del menú*/
+    /* 2.Variable para guardarnos la opción que el usuario escogerá del menú */
     int opcio;
 
-    /* 2. Creamos un booleano para salir del menú*/
+    /* 2. Creamos un booleano para salir del menú */
     boolean salir = false;
 
     /* 3. Asignamos la longitud del array en una constante */
@@ -155,7 +155,7 @@ class prueba {
         break;
 
       case 12:
-        salir=true;
+        salir = true;
         break;
 
       default:
